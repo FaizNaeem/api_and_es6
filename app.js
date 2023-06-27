@@ -44,3 +44,28 @@
 //     }
 // }
 // data1.fun1()
+// class
+// class animals{
+//     constructor(){
+//         console.log("hello")
+//     }
+//     faiz(value) {
+//         return value
+//     }
+// }
+//     let a= new animals()
+//    console.log( a.faiz("faiz"));
+// rest operator
+// let Hello=(...a)=>{
+//     console.log(z)
+// }
+// Hello("faiz","atta","junaid","yaseen","jawad")
+let promise1 = new promise((res, rej)=>{
+setTimeout(()=>{
+a = "faiz"
+res("done")
+},3000)
+})
+promise1.then(()=>{
+    alert(a)
+})
